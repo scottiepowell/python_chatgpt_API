@@ -6,7 +6,7 @@ parser.add_argument("prompt", help="This is a prompt for openai API")
 args = parser.parser_args()
 
 api_endpoint = "https://api.openai.com/v1/completions"
-api_key = "osk-B0MTAZZhSv2SVLu8XrrnT3BlbkFJxPPE72ktBZzB4Bzq4kYZ"
+api_key = ""
 
 headers = {
     'Content-Type': 'application/json',
